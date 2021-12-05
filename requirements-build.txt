@@ -1,0 +1,4 @@
+# Requirments for the api package.
+
+# Cython==0.29.24
+uvloop==0.16.0
