@@ -1,9 +1,7 @@
-# Requirments for the api package.
+# Requirments for the kleina-api package.
 
-# Cython==0.29.24
 pydantic==1.8.2
 fastapi==0.70.0
 uvicorn==0.15.0
-# uvloop==0.16.0
 httpx==0.21.1
 httpx-auth==0.13.0
