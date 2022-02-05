@@ -4,7 +4,7 @@ from fastapi import FastAPI
 from asyncio import sleep
 import asyncio as aio
 
-def configure_args():
+def configure_args(*args, **kwargs):
     pass
 
 def configure_logging():
@@ -20,5 +20,5 @@ def configure(api: FastAPI) -> bool:
 
 def makeApp(*args, **kwargs) -> FastAPI:
     api = FastAPI()
-    configure(api)
+    configure(api, *args, **kwargs)
     return api
